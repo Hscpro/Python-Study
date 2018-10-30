@@ -3,5 +3,5 @@ import sys
 
 indata = set()
 for data in sys.argv[1:]:
-  indata.add('{0}'.format(data))
+    indata.add('{0}'.format(data))
 print(indata)
