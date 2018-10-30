@@ -1,3 +1,8 @@
+"""
+测试：101:3500 203:5000 309:15000 207:6000
+挑战：https://www.shiyanlou.com/courses/1140/labs/7269/document
+"""
+
 #!/usr/bin/env python3
 import sys
 
