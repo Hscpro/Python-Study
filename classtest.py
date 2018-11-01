@@ -24,7 +24,7 @@ class NewUser(object):
     #静态类
     @staticmethod
     def format_userdata(id, name):
-        print('{0}\'s id is{1}'.format(name, id))
+        print('{0}\'s id is {1}'.format(name, id))
 
 class UserData(object):
     def __init__(self, id, name):
@@ -35,4 +35,4 @@ class UserData(object):
 
 if __name__ == '__main__':
     print(NewUser.get_group())
-    print(NewUser.format_userdata(109, 'Lucy'))
+    NewUser.format_userdata(109, 'Lucy')
